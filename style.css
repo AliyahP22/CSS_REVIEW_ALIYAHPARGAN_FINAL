@@ -349,35 +349,36 @@ html {
 @keyframes mymove{
   from{left:0px;}
   to{left:300px;}
+}
 
-#animate8{
-  position:relative;
-  animation-name:fill;
-  animation-duration: 20s;
-  animation-delay: 2s;
-  animation-fill-mode: backwards;
-  animation-iteration-count: infinite;
-}
-@keyframes fill{
-  from{top:0px;background-color: #874efe;}
-  to{top:200px;}
-}
-#animate9{
-  position: relative;
-  animation-name: short;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-@keyframes short{
-  0%{background-color: #ff0000; left:0px;top:0px;}
-  25%{background-color: magenta; left:200px;top:0px;}
-  50%{background-color: rebeccapurple; left:200px;top:200px;}
-  75%{background-color: deeppink; left:0px;top:200px;}
-  100%{background-color: #ff0000; left:0px;top:0px;}
-}
+  #animate8{
+    position: relative;
+    animation-name: fill;
+    animation-duration: 20s;  
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+  }
+  @keyframes fill {
+    from {top: 0px; background-color: #b61aff;}
+    to {top: 200px;}
+  }
+  #animate9{
+    position: relative;
+    animation-name: short;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes short {
+    0%{background-color: #610000; left:0px; top:0px;}
+    25%{background-color: magenta; left:200px; top:0px;}
+    50%{background-color: #ff0000; left:200px; top:200px;}
+    75%{background-color: rebeccapurple;left:0px; top:200px;}
+    100%{background-color: #610000; left: 0px; top: 0px;}
+  }
  /*Perspective Method*/
  /*matrix 3D  method*/
  /*3D ANIMATIONS*/
